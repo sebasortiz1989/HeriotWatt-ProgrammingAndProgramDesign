@@ -1,4 +1,4 @@
-package Examples;
+package Module2;
 
 public class NonPrimitiveTypes {
     public static void StringMethodExamples() {

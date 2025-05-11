@@ -1,7 +1,4 @@
-import Examples.CommonErrors;
-import Examples.DataTypeConversionAndCasting;
-import Examples.NonPrimitiveTypes;
-import Examples.SalesTax;
+import Module2.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,5 +17,6 @@ public class Main {
         System.out.println("------------");
         NonPrimitiveTypes.ArrayExample();
         System.out.println("------------");
+        ScannerExample.RunScanner();
     }
 }

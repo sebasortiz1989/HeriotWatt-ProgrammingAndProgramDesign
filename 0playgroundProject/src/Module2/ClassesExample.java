@@ -1,4 +1,4 @@
-package Examples;
+package Module2;
 
 class Person {
     // Fields
