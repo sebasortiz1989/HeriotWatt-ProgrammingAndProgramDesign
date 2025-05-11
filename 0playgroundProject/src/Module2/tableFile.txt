@@ -1,0 +1,23 @@
+Method
+
+Description
+
+Example
+
+Math.ceil(x)
+
+Rounds x upwards to the nearest integer.
+
+Math.ceil(5.3) → 6.0
+
+Math.floor(x)
+
+Rounds x downwards to the nearest integer.
+
+Math.floor(5.7) → 5.0
+
+Math.round(x)
+
+Rounds x to the nearest integer.
+
+Math.round(5.5) → 6
