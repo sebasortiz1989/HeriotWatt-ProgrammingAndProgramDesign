@@ -16,6 +16,7 @@ public class MarkdownTableCalculator {
     {
         try {
             Scanner scanner = new Scanner(file);
+            StringBuilder sb = new StringBuilder();
             int cont = 1;
             int wordNumber = 0;
             while (scanner.hasNextLine()) {
@@ -29,26 +30,27 @@ public class MarkdownTableCalculator {
 
                 if (wordNumber == columns + 1)
                 {
-                    System.out.print("|---".repeat(columns));
-                    System.out.print("|");
-                    System.out.print("\n");
+                    sb.append("|---".repeat(columns));
+                    sb.append("|");
+                    sb.append("\n");
                 }
 
                 if (cont == columns) {
-                    System.out.print("|");
-                    System.out.print(isLastColumnCode ? "`" + line + "`" : line);
-                    System.out.print("|");
-                    System.out.print("\n");
+                    sb.append("|");
+                    sb.append(isLastColumnCode ? "`" + line + "`" : line);
+                    sb.append("|");
+                    sb.append("\n");
                     cont = 0;
                 }
                 else {
-                    System.out.print("|");
-                    System.out.print(line);
+                    sb.append("|");
+                    sb.append(line);
                 }
 
                 cont++;
             }
 
+            System.out.println(sb);
             scanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");

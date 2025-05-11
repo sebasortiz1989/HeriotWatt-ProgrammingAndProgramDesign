@@ -1,23 +1,53 @@
-Method
+Escape Sequence
 
 Description
 
-Example
+Example Output
 
-Math.ceil(x)
+\n
 
-Rounds x upwards to the nearest integer.
+New line
 
-Math.ceil(5.3) → 6.0
+"Hello\nWorld" →  Hello World
 
-Math.floor(x)
+\t
 
-Rounds x downwards to the nearest integer.
+Tab (horizontal space)
 
-Math.floor(5.7) → 5.0
+"Java\tProgramming" → Java Programming
 
-Math.round(x)
+\b
 
-Rounds x to the nearest integer.
+Backspace (deletes previous character)
 
-Math.round(5.5) → 6
+"ABC\bD" → ABD
+
+\r
+
+Carriage return (moves cursor to the beginning of the line)
+
+"Hello\rWorld" → World (replaces "Hello")
+
+\f
+
+Form feed (used in printing, rarely used in console output)
+
+"Hello\fWorld"
+
+\'
+
+Single quote
+
+'\'' (Used for defining character literals)
+
+\"
+
+Double quote
+
+"She said, \"Hello!\"" → She said, "Hello!"
+
+\\
+
+Backslash
+
+"C:\\Program Files\\" → C:\Program Files\
