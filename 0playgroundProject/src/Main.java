@@ -1,5 +1,6 @@
 import Examples.CommonErrors;
 import Examples.DataTypeConversionAndCasting;
+import Examples.NonPrimitiveTypes;
 import Examples.SalesTax;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -15,7 +16,9 @@ public class Main {
 //        CommonErrors.RoundingErrors();
 //        CommonErrors.IntegerDivisionError();
         // CommonErrors.RedundantInputObject();
-
-        DataTypeConversionAndCasting.WideningExample();
+        // DataTypeConversionAndCasting.WideningExample();
+        System.out.println("------------");
+        NonPrimitiveTypes.ArrayExample();
+        System.out.println("------------");
     }
 }
