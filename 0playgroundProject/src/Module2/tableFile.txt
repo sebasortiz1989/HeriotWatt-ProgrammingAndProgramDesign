@@ -1,0 +1,53 @@
+Escape Sequence
+
+Description
+
+Example Output
+
+\n
+
+New line
+
+"Hello\nWorld" →  Hello World
+
+\t
+
+Tab (horizontal space)
+
+"Java\tProgramming" → Java Programming
+
+\b
+
+Backspace (deletes previous character)
+
+"ABC\bD" → ABD
+
+\r
+
+Carriage return (moves cursor to the beginning of the line)
+
+"Hello\rWorld" → World (replaces "Hello")
+
+\f
+
+Form feed (used in printing, rarely used in console output)
+
+"Hello\fWorld"
+
+\'
+
+Single quote
+
+'\'' (Used for defining character literals)
+
+\"
+
+Double quote
+
+"She said, \"Hello!\"" → She said, "Hello!"
+
+\\
+
+Backslash
+
+"C:\\Program Files\\" → C:\Program Files\
