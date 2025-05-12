@@ -17,6 +17,6 @@ public class Main {
         System.out.println("------------");
         NonPrimitiveTypes.ArrayExample();
         System.out.println("------------");
-        ScannerExample.RunScanner();
+        // ScannerExample.RunScanner();
     }
 }
