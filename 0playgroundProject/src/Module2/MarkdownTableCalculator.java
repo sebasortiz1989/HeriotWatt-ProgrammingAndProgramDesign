@@ -9,7 +9,7 @@ public class MarkdownTableCalculator {
         File file = new File("src/Module2/tableFile.txt");
         System.out.println("File exists: " + file.exists());
         System.out.println("Absolute path: " + file.getAbsolutePath());
-        createTable(file, 3, true);
+        createTable(file, 3, false);
     }
 
     public static void createTable(File file, int columns, boolean isLastColumnCode)
