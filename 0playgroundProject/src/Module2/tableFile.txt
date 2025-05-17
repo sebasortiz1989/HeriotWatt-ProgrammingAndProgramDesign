@@ -1,53 +1,35 @@
-Escape Sequence
+Best practice
 
-Description
+Why it’s important
 
-Example Output
+Key takeaway
 
-\n
+Use descriptive names
 
-New line
+Improves readability
 
-"Hello\nWorld" →  Hello World
+Names should explain purpose
 
-\t
+Keep methods short
 
-Tab (horizontal space)
+Easier to debug and  maintain
 
-"Java\tProgramming" → Java Programming
+Follow single responsibility principle (SRP)
 
-\b
+Avoid side effects
 
-Backspace (deletes previous character)
+Makes methods predictable
 
-"ABC\bD" → ABD
+Use local variables instead of modifying global state
 
-\r
+Use comments for complex logic
 
-Carriage return (moves cursor to the beginning of the line)
+Helps future developers
 
-"Hello\rWorld" → World (replaces "Hello")
+Explain algorithms or business logic clearly
 
-\f
+Prefer static methods
 
-Form feed (used in printing, rarely used in console output)
+Reduces unnecessary object creation
 
-"Hello\fWorld"
-
-\'
-
-Single quote
-
-'\'' (Used for defining character literals)
-
-\"
-
-Double quote
-
-"She said, \"Hello!\"" → She said, "Hello!"
-
-\\
-
-Backslash
-
-"C:\\Program Files\\" → C:\Program Files\
+Use static when method doesn’t depend on instance variables
