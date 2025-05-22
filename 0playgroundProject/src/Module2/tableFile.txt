@@ -1,35 +1,41 @@
-Best practice
+Feature
 
-Why it’s important
+Method overriding
 
-Key takeaway
+Method overloading
 
-Use descriptive names
+Definition
 
-Improves readability
+Redefining a method in a subclass  
 
-Names should explain purpose
+Defining multiple methods with the same name but different parameters  
 
-Keep methods short
+Where it occurs
 
-Easier to debug and  maintain
+Between superclass and subclass  
 
-Follow single responsibility principle (SRP)
+Within the same class
 
-Avoid side effects
+Method signature
 
-Makes methods predictable
+Must be identical (same name, parameters, and return type)  
 
-Use local variables instead of modifying global state
+Must have different parameter lists  
 
-Use comments for complex logic
+Return type
 
-Helps future developers
+Must be the same or subtype
 
-Explain algorithms or business logic clearly
+ Can be different  
 
-Prefer static methods
+Access modifier
 
-Reduces unnecessary object creation
+ Cannot be more restrictive than in the superclass  
 
-Use static when method doesn’t depend on instance variables
+ Can have any access modifier  
+
+Static method?
+
+ Cannot be overridden (only hidden)  
+
+ Can be overloaded  
