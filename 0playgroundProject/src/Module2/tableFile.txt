@@ -1,41 +1,29 @@
 Feature
 
-Method overriding
+Calendar
 
-Method overloading
+GregorianCalendar
 
-Definition
+Type
 
-Redefining a method in a subclass  
+Abstract class
 
-Defining multiple methods with the same name but different parameters  
+Concrete class
 
-Where it occurs
+Instantiation
 
-Between superclass and subclass  
+Cannot be instantiated directly
 
-Within the same class
+Can be instantiated
 
-Method signature
+Default instance
 
-Must be identical (same name, parameters, and return type)  
+Returns GregorianCalendar when calling Calendar.getInstance()
 
-Must have different parameter lists  
+Must be explicitly created
 
-Return type
+Leap year check
 
-Must be the same or subtype
+Not directly supported
 
- Can be different  
-
-Access modifier
-
- Cannot be more restrictive than in the superclass  
-
- Can have any access modifier  
-
-Static method?
-
- Cannot be overridden (only hidden)  
-
- Can be overloaded  
+Provides isLeapYear(int year) method
