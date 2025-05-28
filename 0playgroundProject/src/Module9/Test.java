@@ -5,10 +5,8 @@ import java.util.GregorianCalendar;
 
 public class Test {
     public static void main(String[] args) {
-        Calendar cal = new GregorianCalendar();
-        cal.get(Calendar.WEEK_OF_MONTH);
-        System.out.println(cal.get(Calendar.DAY_OF_MONTH));
-        Double i = 4.5;
-        System.out.println(i);
+        java.util.Date x = new java.util.Date();
+        java.util.Date y = (java.util.Date)x.clone();
+        System.out.println(x = y);
     }
 }

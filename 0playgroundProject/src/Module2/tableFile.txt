@@ -1,29 +1,23 @@
-Feature
+x
 
-Calendar
+Variables
 
-GregorianCalendar
+Constructors
 
-Type
+Methods
 
 Abstract class
 
-Concrete class
+No restrictions
 
-Instantiation
+Constructors are invoked by subclasses through constructor chaining. An abstract class cannot be instantiated using the new operator.
 
-Cannot be instantiated directly
+No restrictions
 
-Can be instantiated
+Interface 
 
-Default instance
+All variables must be "public static final"
 
-Returns GregorianCalendar when calling Calendar.getInstance()
+No constructors. An interface cannot be instantiated using the new operator.
 
-Must be explicitly created
-
-Leap year check
-
-Not directly supported
-
-Provides isLeapYear(int year) method
+May contain public abstract instance methods, public default, and public static methods
