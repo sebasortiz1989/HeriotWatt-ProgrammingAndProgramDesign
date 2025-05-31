@@ -1,23 +1,29 @@
-x
+Feature
 
-Variables
+FileWriter
 
-Constructors
+BufferedWriter
 
-Methods
+Performance
 
-Abstract class
+Slower (writes directly)
 
-No restrictions
+Faster (uses buffering)
 
-Constructors are invoked by subclasses through constructor chaining. An abstract class cannot be instantiated using the new operator.
+Memory Usage
 
-No restrictions
+Low
 
-Interface 
+Higher (due to buffering)
 
-All variables must be "public static final"
+Best for
 
-No constructors. An interface cannot be instantiated using the new operator.
+Small files
 
-May contain public abstract instance methods, public default, and public static methods
+Large files or frequent writes
+
+New Line Handling
+
+Manually using \n
+
+newLine() method

@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class MarkdownTableCalculator {
     public static void main(String[] args) {
-        File file = new File("src/Module2/tableFile.txt");
+        File file = new File("0playgroundProject/src/Module2/tableFile.txt");
         System.out.println("File exists: " + file.exists());
         System.out.println("Absolute path: " + file.getAbsolutePath());
-        createTable(file, 4, false);
+        createTable(file, 3, false);
     }
 
     public static void createTable(File file, int columns, boolean isLastColumnCode)
