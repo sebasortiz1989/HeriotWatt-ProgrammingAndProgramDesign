@@ -1,20 +1,20 @@
 package PracticeProblems;
 
 class Animal {
-    public void makeSound() {
+    void makeSound() {
         System.out.println("The animal makes sound");
     }
 }
 
 class Dog extends Animal {
-    public void makeSound() {
+    void makeSound() {
         System.out.println("Woof!");
     }
 }
 
 class Cat extends Animal {
     @Override
-    public void makeSound() {
+    void makeSound() {
         System.out.println("Meow!");
     }
 }
@@ -26,5 +26,13 @@ public class Module8 {
 
         myDog.makeSound();  // Output: Woof!
         myCat.makeSound();  // Output: Meow!
+
+        Animal cat1 = new Cat();
+        Animal cat2 = new Cat();
+        System.out.println(cat1.hashCode());
+        System.out.println(cat2.hashCode());
+
+        Animal obj = new Dog();
+        obj.makeSound();
     }
 }
