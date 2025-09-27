@@ -1,29 +1,89 @@
-Feature
+ArtistID
 
-FileWriter
+ArtistName
 
-BufferedWriter
+AlbumID
 
-Performance
+AlbumTitle
 
-Slower (writes directly)
+SongID
 
-Faster (uses buffering)
+SongTitle
 
-Memory Usage
+SongDuration
 
-Low
+ProducerName
 
-Higher (due to buffering)
+ProducerEmail
 
-Best for
+A101
 
-Small files
+The Vibe
 
-Large files or frequent writes
+AB123
 
-New Line Handling
+City Lights
 
-Manually using \n
+S001
 
-newLine() method
+Neon Dream
+
+3:45
+
+Mark Smith
+
+mark@email.com
+
+A101
+
+The Vibe
+
+AB123
+
+City Lights
+
+S002
+
+Midnight Run
+
+4:10
+
+Mark Smith
+
+mark@email.com
+
+A102
+
+Luna
+
+CD456
+
+Echoes
+
+S003
+
+Starlight
+
+3:20
+
+Jane Doe
+
+jane@email.com
+
+A102
+
+Luna
+
+CD456
+
+Echoes
+
+S003
+
+Starlight
+
+3:20
+
+Peter Jones
+
+peter@email.com
